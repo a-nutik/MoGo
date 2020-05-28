@@ -1,0 +1,102 @@
+.service {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.line_gray {
+    width: 100%;
+    height: 1px;
+    background-color: #e5e5e5;
+    text-align: center;
+    margin: 30px 0px 60px 0px;
+}
+
+.service_table {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.service_table_line {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.all_service {
+    display: flex;
+    flex-direction: row; 
+    flex-basis: 25%;
+    flex-shrink: 0;
+}
+
+.lit_img {
+    width: 30px;
+    height: 30px;
+    margin-right: 25px;
+}
+
+.all_service_text {
+    display: flex;
+    flex-direction: column;
+}
+
+.head_service {
+    color: #333333;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+}
+
+.text_service {
+    color: #999999;
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.big_img {
+    width: 100vw; 
+    height: calc(100vw / 2.26);
+    background-image: linear-gradient(to top, rgba(255, 255, 255, 0.85) 0%, rgba(255, 255, 255, 0.85) 100%), url(./assets/Layer_45.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    margin-top: 50px;
+}
+
+.head_img {  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.top_pic {
+    position: absolute;
+    bottom: 0;
+    height: 70%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.img_display {
+    bottom: 0;
+    height: 100%;
+}
+
+.img_phone {
+    position: absolute;
+    z-index: 10;
+    height: 83%;
+    bottom: -16%;
+    right: -35%;
+}
